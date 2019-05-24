@@ -3,10 +3,10 @@
     <a href="#"><img src="https://i.imgur.com/YKVDbow.jpg" /></a>
     <br />
     <br />
-    <a href="https://discord.gg/azukeXk"><img alt="Discord" src="https://img.shields.io/discord/567034368002883594.svg?label=Discord&style=for-the-badge"></a>
+    <a href="https://discord.gg/DcuYTCW"><img alt="Discord" src="https://img.shields.io/discord/581547415316987935.svg?label=Discord&style=for-the-badge"></a>
     <a href="https://github.com/dlive-apis/dlivetv-api-net/blob/master/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/dlive-apis/dlivetv-api-net.svg?style=for-the-badge"></a>
-    <a href="https://www.nuget.org/packages/dlivetv-unofficial-api-net/"><img alt="Nuget (with prereleases)" src="https://img.shields.io/nuget/vpre/dlivetv-unofficial-api-net.svg?style=for-the-badge"></a>
-    <a href="https://www.nuget.org/packages/dlivetv-unofficial-api-net/"><img alt="Nuget" src="https://img.shields.io/nuget/dt/dlivetv-unofficial-api-net.svg?style=for-the-badge"></a>
+    <a href="https://www.nuget.org/packages/dlive-api"><img alt="Nuget (with prereleases)" src="https://img.shields.io/nuget/vpre/dlivetv-unofficial-api-net.svg?style=for-the-badge"></a>
+    <a href="https://www.nuget.org/packages/dlive-api"><img alt="Nuget" src="https://img.shields.io/nuget/dt/dlivetv-api-net.svg?style=for-the-badge"></a>
 </p>
 
 
@@ -16,16 +16,16 @@
 - Access token is required to use this library. Create an account on [dlive.tv](https://dlive.tv/) then follow our [wiki](https://dlive.timedot.cc/tutorials) tutorial to get your token
 
 ## Installation
-dlivetv-unofficial-api is free and easy to install
+dlivetv-api is free and easy to install
 ```bash
-Install-Package dlivetv-unofficial-api-net
+Install-Package dlive-api
 ```
 You can install it in .NET CLI or Paket CLI too
 ```bash
-dotnet add package dlivetv-unofficial-api-net
+dotnet add package dlive-api
 ```
 ```bash
-paket add dlivetv-unofficial-api-net
+paket add dlive-api
 ```
 
 ## First Usage
@@ -49,7 +49,7 @@ api.Events.OnMessageReceived += async (message, sender) =>
 
 	// Delete message after 3 seconds
 	Thread.Sleep(3000);
-	await message.DeleteMessageAsync();
+	await message.DeleteMessage();
 };
 
 api.Events.OnMessageDeleted += message =>
@@ -59,7 +59,7 @@ api.Events.OnMessageDeleted += message =>
 
 api.ListenEvents(true);
 
-api.Message.SendMessageAsync("Delete me!").Wait();
+api.Message.SendMessage("Delete me!").Wait();
 
 ```
 ## Documentation
@@ -76,4 +76,4 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## See also
 
-- [JavaScript (Node.js)](https://github.com/dlive-apis/dlivetv-unofficial-api-js) version of dlivetv-unofficial-api
+- [JavaScript (Node.js)](https://github.com/dlive-apis/dlivetv-api-js) version of dlivetv-unofficial-api
