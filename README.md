@@ -5,8 +5,8 @@
     <br />
     <a href="https://discord.gg/DcuYTCW"><img alt="Discord" src="https://img.shields.io/discord/581547415316987935.svg?label=Discord&style=for-the-badge"></a>
     <a href="https://github.com/dlive-apis/dlivetv-api-net/blob/master/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/dlive-apis/dlivetv-api-net.svg?style=for-the-badge"></a>
-    <a href="https://www.nuget.org/packages/dlive-api"><img alt="Nuget (with prereleases)" src="https://img.shields.io/nuget/vpre/dlivetv-unofficial-api-net.svg?style=for-the-badge"></a>
-    <a href="https://www.nuget.org/packages/dlive-api"><img alt="Nuget" src="https://img.shields.io/nuget/dt/dlivetv-api-net.svg?style=for-the-badge"></a>
+    <a href="https://www.nuget.org/packages/dlive-api"><img alt="Nuget (with prereleases)" src="https://img.shields.io/nuget/vpre/dlivetv-api-net.svg?style=for-the-badge"></a>
+    <a href="https://www.nuget.org/packages/dlive-api"><img alt="Nuget" src="https://img.shields.io/nuget/dt/dlive-api.svg?style=for-the-badge"></a>
 </p>
 
 
